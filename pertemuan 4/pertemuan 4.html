@@ -1,0 +1,165 @@
+<html>
+<head>
+  <title>Light, Fast & Powerful</title>
+  <style>
+    :root {
+      --navy: #1a2a4a;
+      --blue-text: #3d5a99;
+      --light-bg: #ffffff;
+      --icon-color: #1a2a4a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    .split-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 100vh;
+    }
+    .image-panel {
+      position: relative;
+      overflow: hidden;
+    }
+    .image-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    .content-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px 70px;
+      background: #fff;
+    }
+    .content-panel h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      color: var(--navy);
+      margin-bottom: 24px;
+      line-height: 1.2;
+    }
+    .content-panel .lead-text {
+      color: var(--blue-text);
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px 40px;
+      margin-top: 44px;
+    }
+    .feature-item {}
+    .feature-icon {
+      width: 52px;
+      height: 52px;
+      margin-bottom: 14px;
+    }
+    .feature-item h3 {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .feature-item p {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<section class="split-section">
+
+  <!-- LEFT: IMAGE -->
+  <div class="image-panel">
+    <img src="Image.png">
+  </div>
+
+  <!-- RIGHT: CONTENT -->
+  <div class="content-panel">
+    <h1>Light, Fast &amp; Powerful</h1>
+
+    <p class="lead-text">
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus
+    </p>
+    <p class="lead-text">
+      mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+      Nulla consequat massa quis enim.
+    </p>
+
+    <div class="features-grid">
+
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="32" height="28" rx="2" stroke="#1a2a4a" stroke-width="2"/>
+          <rect x="10" y="12" width="24" height="16" rx="1" stroke="#1a2a4a" stroke-width="1.5"/>
+          <path d="M14 40h24" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M22 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M30 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="38" cy="36" r="7" fill="#fff" stroke="#1a2a4a" stroke-width="2"/>
+          <path d="M35 36l2 2 4-4" stroke="#1a2a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h3>Title Goes Here</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+      </div>
+
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="32" height="28" rx="2" stroke="#1a2a4a" stroke-width="2"/>
+          <rect x="10" y="12" width="24" height="16" rx="1" stroke="#1a2a4a" stroke-width="1.5"/>
+          <path d="M14 40h24" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M22 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M30 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="38" cy="36" r="7" fill="#fff" stroke="#1a2a4a" stroke-width="2"/>
+          <path d="M35 36l2 2 4-4" stroke="#1a2a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h3>Title Goes Here</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+      </div>
+
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="32" height="28" rx="2" stroke="#1a2a4a" stroke-width="2"/>
+          <rect x="10" y="12" width="24" height="16" rx="1" stroke="#1a2a4a" stroke-width="1.5"/>
+          <path d="M14 40h24" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M22 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M30 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="38" cy="36" r="7" fill="#fff" stroke="#1a2a4a" stroke-width="2"/>
+          <path d="M35 36l2 2 4-4" stroke="#1a2a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h3>Title Goes Here</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+      </div>
+
+      <div class="feature-item">
+        <svg class="feature-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="32" height="28" rx="2" stroke="#1a2a4a" stroke-width="2"/>
+          <rect x="10" y="12" width="24" height="16" rx="1" stroke="#1a2a4a" stroke-width="1.5"/>
+          <path d="M14 40h24" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M22 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M30 36v4" stroke="#1a2a4a" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="38" cy="36" r="7" fill="#fff" stroke="#1a2a4a" stroke-width="2"/>
+          <path d="M35 36l2 2 4-4" stroke="#1a2a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h3>Title Goes Here</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+</body>
+</html>
